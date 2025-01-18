@@ -1,3 +1,4 @@
+package atm.xyz;
 import java.math.BigDecimal;
 
 public class TransferResponseDTO {

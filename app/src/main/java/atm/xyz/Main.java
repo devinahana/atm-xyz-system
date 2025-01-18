@@ -1,3 +1,4 @@
+package atm.xyz;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,17 +9,24 @@ public class Main {
 
     public static void main(String[] args) {
         while (true) {
+            
             printWelcomingMsg();
             System.out.println("Input: ");
             UserResponseDTO userDTO = new UserResponseDTO();
             User user = new User();
             String username = "";
-
+            
             while (true) {
+                // Exit the application when there is no more input
+                if (!sc.hasNextLine()) {
+                    System.exit(0);
+                }
                 String input = sc.nextLine();
 
                 if (input.toLowerCase().startsWith("login ")) {
                     String name = input.substring(6).trim();
+
+                    // Handle alreadly login
                     if (isLogin) {
                         System.out.println("You are already logged in as " + username);
                         if (!name.equalsIgnoreCase(username)) {
@@ -170,10 +178,9 @@ public class Main {
                         isLogin = false;
                         break;
                     }
-                }
-
-                else {
-                    unknownActionMsg();
+                
+                } else {
+                    System.out.println("Invalid command. Please read the instructions again!\n");
                 }
 
             }
@@ -208,10 +215,6 @@ public class Main {
         System.out.println("[5] Logout");
         System.out.println("When you're finished, you can log out by typing: `logout`");
         System.out.println("==================================================================================\n");
-    }
-
-    public static void unknownActionMsg() {
-        System.out.println("Invalid command. Please read the instructions again!\n");
     }
 
     public static boolean validateUserName(String name) {
@@ -254,19 +257,4 @@ public class Main {
         }
 
     }
-
-    // public static void printDebtList() {
-    //     ArrayList<Debt> debtList = Debt.getDebtList();
-
-    //     if (!debtList.isEmpty()) {
-    //         for (Debt debt : debtList) {
-    //             System.out.println("Owed $" + debt.getAmount() + " from " + debt.getBorrower().getName() + " to "
-    //                     + debt.getLender().getName());
-    //         }
-    //         System.out.println();
-    //     } else {
-    //         System.out.println();
-    //     }
-
-    // }
 }

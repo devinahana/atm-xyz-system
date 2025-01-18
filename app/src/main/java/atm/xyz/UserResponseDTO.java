@@ -1,3 +1,4 @@
+package atm.xyz;
 public class UserResponseDTO {
     private User user;
     private boolean isNewUser;

@@ -43,3 +43,5 @@ out/
 ### VS Code ###
 .vscode/
 .env
+# Ignore Gradle build output directory
+build
