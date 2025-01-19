@@ -13,23 +13,26 @@ Devina Hana<br>
 - Withdrawals cannot exceed the available balance (denied if balance is insufficient)
 
 ## Getting Started
-- Build the application
+**Build the application**
 ```bash
 ./gradlew clean build
 ```
+<br>
 
-- Run the application with .txt input
+**Run the application with .txt input**
 ```bash
 ./gradlew run --quiet < test-case/input/in-1.txt > test-case/output/out-1.txt
 ```
+<br>
 
-- Run the application with your own input
+**Run the application with your own input**
 ```bash
 ./gradlew run
 ```
+<br>
 
-- Run the test
+**- Run the test**
 ```bash
 ./gradlew test
 ```
-check the output of test in app/build/reports/tests/test/index.html
+check the output of test in app/build/reports/tests/test/index.html or check the test-result.html for current test result
