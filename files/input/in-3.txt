@@ -1,0 +1,19 @@
+withdraw
+withdraw 50
+login alice
+transfer bob 50
+logout
+login Bob
+logout
+login AlicE
+transfer bob 50
+deposit 50
+withdraw 5
+deposit -10
+withdraw 0
+withdraw 5
+withdraw -10
+deposit 100
+withdraw -10
+withdraw 10
+deposit 0

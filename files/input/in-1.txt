@@ -1,0 +1,15 @@
+login Alice
+deposit 100
+logout
+login Bob
+deposit 80
+transfer alice 50
+transfer alice 100
+deposit 30
+logout
+login aliCE
+transfer bob 30
+logout
+login Bob
+deposit 100
+logout

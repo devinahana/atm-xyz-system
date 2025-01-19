@@ -1,0 +1,153 @@
+================================Welcome to ATM XYZ================================
+Please follow the instructions below to use our system!
+
+[1] Login
+Before managing your money, you must first log in by typing: `login [name]`
+Example: login Alice
+If you don't have an account, we'll automatically create one for you:)
+
+[2] Deposit
+To add your account balance, you can make a deposit by typing: `deposit [amount]`
+Example: deposit 100
+
+[3] Withdraw
+To withdraw money from your account, type: `withdraw [amount]`
+Example: withdraw 50
+
+[4] Transfer
+To transfer money to another customer, type: `transfer [target] [amount]`
+Example: transfer Bob 200
+
+[5] Logout
+When you're finished, you can log out by typing: `logout`
+==================================================================================
+
+Input: 
+Please log in first to proceed with this action!
+
+Please log in first to proceed with this action!
+
+This username is restricted. Please choose another name.
+
+This username is restricted. Please choose another name.
+
+This username is restricted. Please choose another name.
+
+Welcome, .a.!
+Your balance is $0
+
+You are already logged in as .a.
+Logout first to login to another acoount
+
+Goodbye, .a.!
+
+================================Welcome to ATM XYZ================================
+Please follow the instructions below to use our system!
+
+[1] Login
+Before managing your money, you must first log in by typing: `login [name]`
+Example: login Alice
+If you don't have an account, we'll automatically create one for you:)
+
+[2] Deposit
+To add your account balance, you can make a deposit by typing: `deposit [amount]`
+Example: deposit 100
+
+[3] Withdraw
+To withdraw money from your account, type: `withdraw [amount]`
+Example: withdraw 50
+
+[4] Transfer
+To transfer money to another customer, type: `transfer [target] [amount]`
+Example: transfer Bob 200
+
+[5] Logout
+When you're finished, you can log out by typing: `logout`
+==================================================================================
+
+Input: 
+Username must be between 3 and 20 characters long
+
+Username must be between 3 and 20 characters long
+
+Username must be between 3 and 20 characters long
+
+Username must be between 3 and 20 characters long
+
+Welcome, amee_.n-a!
+Your balance is $0
+
+You are already logged in as amee_.n-a
+Logout first to login to another acoount
+
+Goodbye, amee_.n-a!
+
+================================Welcome to ATM XYZ================================
+Please follow the instructions below to use our system!
+
+[1] Login
+Before managing your money, you must first log in by typing: `login [name]`
+Example: login Alice
+If you don't have an account, we'll automatically create one for you:)
+
+[2] Deposit
+To add your account balance, you can make a deposit by typing: `deposit [amount]`
+Example: deposit 100
+
+[3] Withdraw
+To withdraw money from your account, type: `withdraw [amount]`
+Example: withdraw 50
+
+[4] Transfer
+To transfer money to another customer, type: `transfer [target] [amount]`
+Example: transfer Bob 200
+
+[5] Logout
+When you're finished, you can log out by typing: `logout`
+==================================================================================
+
+Input: 
+This username is restricted. Please choose another name.
+
+This username is restricted. Please choose another name.
+
+Welcome, user561526157618!
+Your balance is $0
+
+Your balance is $0
+Owed $12 to amee_.n-a
+
+You are already logged in as user561526157618
+Logout first to login to another acoount
+
+Goodbye, user561526157618!
+
+================================Welcome to ATM XYZ================================
+Please follow the instructions below to use our system!
+
+[1] Login
+Before managing your money, you must first log in by typing: `login [name]`
+Example: login Alice
+If you don't have an account, we'll automatically create one for you:)
+
+[2] Deposit
+To add your account balance, you can make a deposit by typing: `deposit [amount]`
+Example: deposit 100
+
+[3] Withdraw
+To withdraw money from your account, type: `withdraw [amount]`
+Example: withdraw 50
+
+[4] Transfer
+To transfer money to another customer, type: `transfer [target] [amount]`
+Example: transfer Bob 200
+
+[5] Logout
+When you're finished, you can log out by typing: `logout`
+==================================================================================
+
+Input: 
+Hello, amee_.n-a!
+Your balance is $0
+Owed $12 from user561526157618
+

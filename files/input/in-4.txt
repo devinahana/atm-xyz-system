@@ -1,0 +1,22 @@
+logout
+withdraw 50
+login root
+login system
+login sys
+login .a.
+login 12
+logout
+login _
+login b
+login 12
+login devina_sistem_12345_mahasiswa_intern_magang_magang_magang_12345zzzz
+login amee_.n-a
+login aming
+logout
+login admin
+login user
+login user561526157618
+transfer amEE_.n-A 12
+login amee_.n-a
+logout
+login amee_.N-A

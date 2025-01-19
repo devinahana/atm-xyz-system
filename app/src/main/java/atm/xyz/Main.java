@@ -19,6 +19,7 @@ public class Main {
             while (true) {
                 // Exit the application when there is no more input
                 if (!sc.hasNextLine()) {
+                    sc.close();
                     System.exit(0);
                 }
                 String input = sc.nextLine();

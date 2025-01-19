@@ -23,14 +23,16 @@ When you're finished, you can log out by typing: `logout`
 ==================================================================================
 
 Input: 
-Welcome, Bobby!
+Invalid command. Please read the instructions again!
+
+Please log in first to proceed with this action!
+
+Welcome, alice!
 Your balance is $0
 
-Your balance is $100
+User not found. Please check the username and try again.
 
-Your balance is $112
-
-Goodbye, Bobby!
+Goodbye, alice!
 
 ================================Welcome to ATM XYZ================================
 Please follow the instructions below to use our system!
@@ -57,3 +59,60 @@ When you're finished, you can log out by typing: `logout`
 ==================================================================================
 
 Input: 
+Welcome, Bob!
+Your balance is $0
+
+Goodbye, Bob!
+
+================================Welcome to ATM XYZ================================
+Please follow the instructions below to use our system!
+
+[1] Login
+Before managing your money, you must first log in by typing: `login [name]`
+Example: login Alice
+If you don't have an account, we'll automatically create one for you:)
+
+[2] Deposit
+To add your account balance, you can make a deposit by typing: `deposit [amount]`
+Example: deposit 100
+
+[3] Withdraw
+To withdraw money from your account, type: `withdraw [amount]`
+Example: withdraw 50
+
+[4] Transfer
+To transfer money to another customer, type: `transfer [target] [amount]`
+Example: transfer Bob 200
+
+[5] Logout
+When you're finished, you can log out by typing: `logout`
+==================================================================================
+
+Input: 
+Hello, alice!
+Your balance is $0
+
+Your balance is $0
+Owed $50 to Bob
+
+Transferred $50 to Bob
+Your balance is $0
+
+Your balance is not enough for this withdrawal
+
+Please enter a valid positive deposit amount!
+
+Please enter a valid positive withdraw amount!
+
+Your balance is not enough for this withdrawal
+
+Please enter a valid positive withdraw amount!
+
+Your balance is $100
+
+Please enter a valid positive withdraw amount!
+
+Your balance is $90
+
+Please enter a valid positive deposit amount!
+

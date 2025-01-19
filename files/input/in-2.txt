@@ -1,0 +1,36 @@
+login Alice
+logout
+login Bob
+logout
+login ccc
+logout
+login ddd
+logout
+login eee
+logout
+login xxx
+logout
+login yyy
+logout
+login alice 
+transfer yyy 95
+logout
+login yyy
+transfer ccc 30
+transfer ddd 30
+transfer eee 35
+logout
+login   AlicE
+transfer   xxx   125
+logout
+login BOB 
+transfer xxx  20
+transfer alicE 105
+deposit 200
+logout
+login Alice
+login Alice
+login Alice
+login yyy
+logout
+login yyy

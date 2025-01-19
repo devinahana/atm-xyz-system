@@ -1,4 +1,0 @@
-login Bobby
-deposit 100
-deposit 12
-logout
