@@ -15,24 +15,24 @@ Devina Hana<br>
 ## Getting Started
 **Build the application**
 ```bash
-./gradlew clean build
+gradle clean build
 ```
 <br>
 
 **Run the application with .txt input**
 ```bash
-./gradlew run --quiet < test-case/input/in-1.txt > test-case/output/out-1.txt
+gradle run --quiet < test-case/input/in-1.txt > test-case/output/out-1.txt
 ```
 <br>
 
 **Run the application with your own input**
 ```bash
-./gradlew run
+gradle run
 ```
 <br>
 
 **Run the test**
 ```bash
-./gradlew test
+gradle test
 ```
-check the output of test in **app/build/reports/tests/test/index.html** or check the **test-result.html** for current test result
+check the output of test in **app/build/reports/tests/test/index.html** or check the **test-result/index.html** for current test result
