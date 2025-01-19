@@ -31,7 +31,7 @@ public class Main {
                     if (isLogin) {
                         System.out.println("You are already logged in as " + username);
                         if (!name.equalsIgnoreCase(username)) {
-                            System.out.println("Logout first to login to another acoount");
+                            System.out.println("Logout first to login to another account");
                         }
                         System.out.println();
                         continue;
@@ -81,7 +81,7 @@ public class Main {
                                 }
                             } catch (NumberFormatException e) {
                                 System.out.println(
-                                        "Please enter a valid positive deposit amount without any currecy sign!\n");
+                                        "Please enter a valid positive deposit amount without any currency sign!\n");
                             }
                         } else {
                             System.out.println("Please specify the amount to deposit!\n");
@@ -96,9 +96,9 @@ public class Main {
                                 BigDecimal amount = new BigDecimal(amountString);
 
                                 if (amount.compareTo(BigDecimal.ZERO) <= 0) {
-                                    System.out.println("Please enter a valid positive withdraw amount!\n");
+                                    System.out.println("Please enter a valid positive withdrawal amount!\n");
                                 } else if (amount.scale() > 0) {
-                                    System.out.println("Please enter only an integer withdraw amount!\n");
+                                    System.out.println("Please enter only an integer withdrawal amount!\n");
                                 } else if (amount.compareTo(user.getBalance()) > 0) {
                                     System.out.println("Your balance is not enough for this withdrawal\n");
                                 } else {
@@ -107,7 +107,7 @@ public class Main {
                                 }
                             } catch (NumberFormatException e) {
                                 System.out.println(
-                                        "Please enter a valid positive withdraw amount without any currecy sign!\n");
+                                        "Please enter a valid positive withdrawal amount without any currency sign!\n");
                             }
                         } else {
                             System.out.println("Please specify the amount to withdraw!\n");
@@ -203,7 +203,7 @@ public class Main {
         System.out.println("[1] Login");
         System.out.println("Before managing your money, you must first log in by typing: `login [name]`");
         System.out.println("Example: login Alice");
-        System.out.println("If you don't have an account, we'll automatically create one for you:)\n");
+        System.out.println("If you don't have an account, we'll automatically create one for you :)\n");
         System.out.println("[2] Deposit");
         System.out.println("To add your account balance, you can make a deposit by typing: `deposit [amount]`");
         System.out.println("Example: deposit 100\n");

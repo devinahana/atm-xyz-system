@@ -1,4 +1,0 @@
-login Alice
-deposit 100
-logout
-exit
