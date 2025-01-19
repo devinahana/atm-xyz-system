@@ -31,8 +31,8 @@ Devina Hana<br>
 ```
 <br>
 
-**- Run the test**
+**Run the test**
 ```bash
 ./gradlew test
 ```
-check the output of test in app/build/reports/tests/test/index.html or check the test-result.html for current test result
+check the output of test in **app/build/reports/tests/test/index.html** or check the **test-result.html** for current test result
