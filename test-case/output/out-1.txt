@@ -4,7 +4,7 @@ Please follow the instructions below to use our system!
 [1] Login
 Before managing your money, you must first log in by typing: `login [name]`
 Example: login Alice
-If you don't have an account, we'll automatically create one for you:)
+If you don't have an account, we'll automatically create one for you :)
 
 [2] Deposit
 To add your account balance, you can make a deposit by typing: `deposit [amount]`
@@ -36,7 +36,7 @@ Please follow the instructions below to use our system!
 [1] Login
 Before managing your money, you must first log in by typing: `login [name]`
 Example: login Alice
-If you don't have an account, we'll automatically create one for you:)
+If you don't have an account, we'll automatically create one for you :)
 
 [2] Deposit
 To add your account balance, you can make a deposit by typing: `deposit [amount]`
@@ -79,7 +79,7 @@ Please follow the instructions below to use our system!
 [1] Login
 Before managing your money, you must first log in by typing: `login [name]`
 Example: login Alice
-If you don't have an account, we'll automatically create one for you:)
+If you don't have an account, we'll automatically create one for you :)
 
 [2] Deposit
 To add your account balance, you can make a deposit by typing: `deposit [amount]`
@@ -113,7 +113,7 @@ Please follow the instructions below to use our system!
 [1] Login
 Before managing your money, you must first log in by typing: `login [name]`
 Example: login Alice
-If you don't have an account, we'll automatically create one for you:)
+If you don't have an account, we'll automatically create one for you :)
 
 [2] Deposit
 To add your account balance, you can make a deposit by typing: `deposit [amount]`
@@ -147,7 +147,7 @@ Please follow the instructions below to use our system!
 [1] Login
 Before managing your money, you must first log in by typing: `login [name]`
 Example: login Alice
-If you don't have an account, we'll automatically create one for you:)
+If you don't have an account, we'll automatically create one for you :)
 
 [2] Deposit
 To add your account balance, you can make a deposit by typing: `deposit [amount]`

@@ -1,5 +1,8 @@
-package atm.xyz;
+package atm.xyz.dto;
 import java.math.BigDecimal;
+
+import atm.xyz.model.Debt;
+import atm.xyz.model.User;
 
 public class TransferResponseDTO {
     private User sender;

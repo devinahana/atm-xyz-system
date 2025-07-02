@@ -1,4 +1,4 @@
-package atm.xyz;
+package atm.xyz.model;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Objects;

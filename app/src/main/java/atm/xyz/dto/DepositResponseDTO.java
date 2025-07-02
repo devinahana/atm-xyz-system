@@ -1,6 +1,8 @@
-package atm.xyz;
+package atm.xyz.dto;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+
+import atm.xyz.model.Debt;
 
 public class DepositResponseDTO {
     private BigDecimal balance;

@@ -7,6 +7,7 @@ Devina Hana<br>
 - Once logged in, users must log out before logging into a different account
 - Name refers to a username, so it won’t contain spaces
 - Debt is exclusive to each borrower-lender pair
+- When a user transfers money to another user, the amount will first be applied to settle any debts between them. Only the remaining balance will be deposited into the other user's account
 - When user receive money, debts must be paid off first
 - User can create additional debts even if they already have an existing debt
 - User can transfer money even if they don’t have sufficient balance, and the deficit will automatically become a debt

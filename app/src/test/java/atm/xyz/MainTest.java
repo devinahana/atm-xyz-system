@@ -3,6 +3,13 @@ package atm.xyz;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import atm.xyz.dto.TransferResponseDTO;
+import atm.xyz.dto.UserResponseDTO;
+import atm.xyz.model.Debt;
+import atm.xyz.model.User;
+import atm.xyz.service.UserService;
+
 import java.util.List;
 import java.math.BigDecimal;
 

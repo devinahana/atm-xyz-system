@@ -1,6 +1,12 @@
-package atm.xyz;
+package atm.xyz.service;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+
+import atm.xyz.dto.DepositResponseDTO;
+import atm.xyz.dto.TransferResponseDTO;
+import atm.xyz.dto.UserResponseDTO;
+import atm.xyz.model.Debt;
+import atm.xyz.model.User;
 
 public class UserService {
 

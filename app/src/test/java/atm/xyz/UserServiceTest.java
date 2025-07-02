@@ -7,6 +7,14 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestMethodOrder;
+
+import atm.xyz.dto.DepositResponseDTO;
+import atm.xyz.dto.TransferResponseDTO;
+import atm.xyz.dto.UserResponseDTO;
+import atm.xyz.model.Debt;
+import atm.xyz.model.User;
+import atm.xyz.service.UserService;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 

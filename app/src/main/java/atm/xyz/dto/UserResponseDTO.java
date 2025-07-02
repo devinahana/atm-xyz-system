@@ -1,4 +1,7 @@
-package atm.xyz;
+package atm.xyz.dto;
+
+import atm.xyz.model.User;
+
 public class UserResponseDTO {
     private User user;
     private boolean isNewUser;
